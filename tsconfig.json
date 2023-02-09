@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"module": "esnext",
+		"target": "esnext",
+		"inlineSourceMap": true,
+		"strict": true,
+		"moduleResolution": "nodenext",
+		"rootDir": "./src/",
+		"outDir": "./out/",
+		"allowSyntheticDefaultImports": true,
+		"skipLibCheck": true,
+		"incremental": true,
+		"types": [
+			"node"
+		],
+		"noEmitOnError": false
+	},
+	"include": [
+		"./src/**/*.ts",
+		"./src/**/*.tsx"
+	]
+}
+

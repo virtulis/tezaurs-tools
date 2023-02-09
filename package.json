@@ -1,0 +1,24 @@
+{
+	"name": "@virtulis/tezaurs-tools",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"packageManager": "pnpm@latest",
+	"devDependencies": {
+		"@types/node": "^18.13.0",
+		"@types/sax": "^1.2.4",
+		"@typescript-eslint/eslint-plugin": "^5.51.0",
+		"@typescript-eslint/parser": "^5.51.0",
+		"eslint": "^8.33.0",
+		"typescript": "^4.9.5"
+	},
+	"scripts": {
+		"prepare": "pnpm build",
+		"build": "pnpm exec tsc",
+		"watch": "pnpm exec tsc --watch",
+		"convert": "node --enable-source-maps out/convert.js"
+	},
+	"dependencies": {
+		"sax": "^1.2.4"
+	}
+}
